@@ -43,7 +43,7 @@ Ticket.access = async (username, password, code) => {
 
   const passwordValidate = await bcrypt.compare(password, access.password)
   if (!passwordValidate) return new Error('Password incorrect.')
-  else return true
+  return true
 }
 
 Ticket.save = async (username, password) => {
