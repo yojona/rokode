@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "express": "^4.16.4",
+    "pg": "^7.5.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.39.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
