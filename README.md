@@ -4,6 +4,14 @@ To install all dependencies, run the next command:
 npm install
 ``
 
+## Run server
+Run the next command in the root dir
+``node . ``
+or
+``npm start`` (to run with nodemon)
+
+The app will run in **port 3000**
+
 ### Endpoints
 | endpoint | type | data (required) | return |
 |--|--|--|--|
